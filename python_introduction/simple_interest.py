@@ -1,13 +1,10 @@
-# Defining of the variables
-number1 = 10
-number2 = 5
+# Define the variables
+principal = 1000
+rate = 0.05
+time = 3
 
-# Perform operations
-sum_result = number1 + number2
-difference_result = number1 - number2
-product_result = number1 * number2
+# Calculate simple interest
+interest = principal * rate * time
 
-# Print results
-print(f"Sum of {number1} and {number2} is {sum_result}")
-print(f"Difference of {number1} and {number2} is {difference_result}")
-print(f"Product of {number1} and {number2} is {product_result}")
+# Print the result
+print(f"The simple interest is: {interest}")
